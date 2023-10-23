@@ -3,4 +3,4 @@
 
 # docker-telegraf
 
-Add additional packages to the base Telegraf image.
+Add additional packages to the base Telegraf image. 
