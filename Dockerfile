@@ -7,13 +7,12 @@ RUN apk update && apk add --no-cache \
     sudo
 
 RUN echo -e '\
-# smartctl\n\
-Cmnd_Alias SMARTCTL = /usr/bin/smartctl\n\
+\n\
+Cmnd_Alias SMARTCTL = /usr/sbin/smartctl\n\
 telegraf  ALL=(ALL) NOPASSWD: SMARTCTL\n\
 Defaults!SMARTCTL !logfile, !syslog, !pam_session\n\
 \n\
-# nvme-cli\n\
-Cmnd_Alias NVME = /usr/bin/nvme\n\
+Cmnd_Alias NVME = /usr/sbin/nvme\n\
 telegraf  ALL=(ALL) NOPASSWD: NVME\n\
 Defaults!NVME !logfile, !syslog, !pam_session'\
 >> /etc/sudoers
