@@ -10,10 +10,3 @@ updates:
     schedule:
       interval: "weekly"
     open-pull-requests-limit: 10
-    # Enable auto-merge for patch and minor updates
-    auto-merge:
-      - dependency-type: "direct:patch"
-      - dependency-type: "direct:minor"
-      - dependency-type: "indirect:patch"
-      - dependency-type: "indirect:minor"
-      
