@@ -38,7 +38,6 @@ jobs:
         with:
           release-type: simple
           skip-github-pull-request: true
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Login to DockerHub
         if: ${{ steps.release.outputs.release_created }}
