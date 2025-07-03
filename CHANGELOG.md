@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.2](https://github.com/tkhom3/docker-telegraf/compare/v1.0.1...v1.0.2) (2025-07-03)
+
+
+### Bug Fixes
+
+* Update build-and-deploy.yml ([8ac636d](https://github.com/tkhom3/docker-telegraf/commit/8ac636dfa08bcc841bb8d92c885168c5196e38df))
+* Update build-and-deploy.yml ([ed61761](https://github.com/tkhom3/docker-telegraf/commit/ed617612f822d61687c285542a0094ca49779a01))
+
 ## [1.0.1](https://github.com/tkhom3/docker-telegraf/compare/v1.0.0...v1.0.1) (2025-07-03)
 
 
