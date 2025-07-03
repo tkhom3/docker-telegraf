@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.1](https://github.com/tkhom3/docker-telegraf/compare/v1.0.0...v1.0.1) (2025-07-03)
+
+
+### Bug Fixes
+
+* Move to shared workflows ([2bef3ff](https://github.com/tkhom3/docker-telegraf/commit/2bef3fff32dc59cd287c7f63352b949dc1b07a44))
+* Move to shared workflows ([6311949](https://github.com/tkhom3/docker-telegraf/commit/631194915637cfc08fc1ab31cd0fc89ed98338b6))
+
 ## 1.0.0 (2025-07-03)
 
 
