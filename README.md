@@ -3,3 +3,5 @@
 # docker-telegraf
 
 Add additional packages to the base Telegraf image.
+
+redeploy: 1
