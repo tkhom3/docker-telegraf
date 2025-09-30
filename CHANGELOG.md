@@ -1,5 +1,21 @@
 # Changelog
 
+## [1.1.0](https://github.com/tkhom3/docker-telegraf/compare/v1.0.2...v1.1.0) (2025-09-30)
+
+
+### Features
+
+* bump telegraf from 1.35.0-alpine to 1.35.1-alpine ([36c27b7](https://github.com/tkhom3/docker-telegraf/commit/36c27b7d7e2e949968f67d2b0451a83ff9790b2c))
+* bump telegraf from 1.35.0-alpine to 1.35.1-alpine ([6af7f08](https://github.com/tkhom3/docker-telegraf/commit/6af7f089bca0ed52ac24c213e6dab908d79cd31c))
+* bump telegraf from 1.35.1-alpine to 1.35.2-alpine ([4db075e](https://github.com/tkhom3/docker-telegraf/commit/4db075e9b295fdd750c591696c151cf177a8f148))
+* bump telegraf from 1.35.1-alpine to 1.35.2-alpine ([2591816](https://github.com/tkhom3/docker-telegraf/commit/2591816acba27036b60f263e9bafef08f360f1fb))
+* bump telegraf from 1.35.2-alpine to 1.35.3-alpine ([2db7c3e](https://github.com/tkhom3/docker-telegraf/commit/2db7c3e9fa339d604119006d69f7a3c10e361789))
+* bump telegraf from 1.35.2-alpine to 1.35.3-alpine ([95cd310](https://github.com/tkhom3/docker-telegraf/commit/95cd310924ebbe9a22c52dd57150255a9379c94e))
+* bump telegraf from 1.35.3-alpine to 1.35.4-alpine ([e96c386](https://github.com/tkhom3/docker-telegraf/commit/e96c386036e0d151f40c9f73bfb7026ac09b32f4))
+* bump telegraf from 1.35.3-alpine to 1.35.4-alpine ([f26a2cb](https://github.com/tkhom3/docker-telegraf/commit/f26a2cb73657e7533d0e4f1ffbd5e5e16c4cbf89))
+* bump telegraf from 1.35.4-alpine to 1.36.1-alpine ([c9be853](https://github.com/tkhom3/docker-telegraf/commit/c9be8532c832a2bf181e78148bb0cac71d5ec506))
+* bump telegraf from 1.35.4-alpine to 1.36.1-alpine ([4f5a719](https://github.com/tkhom3/docker-telegraf/commit/4f5a7198a3fe7629c7a48c76558e7b3575e6e6cf))
+
 ## [1.0.2](https://github.com/tkhom3/docker-telegraf/compare/v1.0.1...v1.0.2) (2025-07-03)
 
 
