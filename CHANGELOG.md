@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.0](https://github.com/tkhom3/docker-telegraf/compare/v1.1.0...v1.2.0) (2025-10-19)
+
+
+### Features
+
+* bump telegraf from 1.36.1-alpine to 1.36.2-alpine ([7eb38f6](https://github.com/tkhom3/docker-telegraf/commit/7eb38f60a7f20389a0e94b4901ac3f8111fd7c27))
+* bump telegraf from 1.36.1-alpine to 1.36.2-alpine ([75194e8](https://github.com/tkhom3/docker-telegraf/commit/75194e83359c72a1d7fd4c0a0d6d00a0590a8fe9))
+
 ## [1.1.0](https://github.com/tkhom3/docker-telegraf/compare/v1.0.2...v1.1.0) (2025-09-30)
 
 
