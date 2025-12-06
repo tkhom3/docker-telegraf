@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.1](https://github.com/tkhom3/docker-telegraf/compare/v1.2.0...v1.2.1) (2025-12-06)
+
+
+### Bug Fixes
+
+* no longer running trivy ([742c9b9](https://github.com/tkhom3/docker-telegraf/commit/742c9b983bba48f169325a9440a2945be8061288))
+* no longer running trivy ([87e9b21](https://github.com/tkhom3/docker-telegraf/commit/87e9b21cb4dab2c8baf1eab200e3fadb46266583))
+
 ## [1.2.0](https://github.com/tkhom3/docker-telegraf/compare/v1.1.0...v1.2.0) (2025-10-19)
 
 
