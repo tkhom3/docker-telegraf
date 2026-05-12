@@ -24,18 +24,3 @@ updates:
     open-pull-requests-limit: 10
     commit-message:
       prefix: "chore: "
-
-  - package-ecosystem: "npm"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-    commit-message:
-      prefix: "chore"
-
-  # Python dependencies — fix prefix, triggers patch release
-  - package-ecosystem: "uv"
-    directory: "/"
-    schedule:
-      interval: "weekly"
-    commit-message:
-      prefix: "fix"
