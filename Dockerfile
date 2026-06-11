@@ -1,4 +1,4 @@
-FROM telegraf:1.38.4-alpine
+FROM telegraf:1.39.0-alpine
 
 RUN apk update && apk add --no-cache \
     smartmontools \ 
