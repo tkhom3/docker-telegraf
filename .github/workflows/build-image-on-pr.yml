@@ -1,11 +1,25 @@
-name: Build Image on PR
+name: Create Release, Build and Deploy Image
 
 on:
-  pull_request:
+  push:
+    branches:
+      - 'main'
+      - 'beta'
+  pull_request_target:
+    branches:
+      - 'main'
+      - 'beta'
+    types: [closed]
 
 permissions:
-  contents: read
+  actions: write
+  contents: write
+  issues: write
+  id-token: write
+  pull-requests: write
 
 jobs:
-  build-image:
-    uses: tkhom3/gha-workflows/.github/workflows/build-image-pr.yml@baac94b3959e9289608ba8d2a5675965462b1461 # v1.0.7
+  build-and-release-image:
+    if: github.actor == 'dependabot[bot]' || github.event_name == 'push'
+    uses: tkhom3/gha-workflows/.github/workflows/build-and-push-image.yml@baac94b3959e9289608ba8d2a5675965462b1461 # v1.0.7
+    secrets: inherit
